@@ -141,13 +141,14 @@ header {
 }
 
 #footer_div2_box01, #footer_div2_box02{
-    align-items: center;
+    
     line-height: 100px;
+    text-align: center;
 
 }
 
 #footer_div2_box03{
-    align-items: center;
+    text-align: center;
     vertical-align: middle;
-
+    display: flex;
 }
