@@ -6,7 +6,7 @@
 
 #sec1, #sec3{
     border: 1px solid black;
-    height: 150px;
+    height: 200px;
     margin: 5px;
 } 
 
@@ -133,22 +133,22 @@ header {
 
 .footer_div2 div{
     background-color: aquamarine;
-    width:100px;
-    height:100px;
-    font-size: larger;
-    text-align: center;
+    width: 25%;
+    height:150px;
 
 }
 
-#footer_div2_box01, #footer_div2_box02{
-    
-    line-height: 100px;
-    text-align: center;
-
-}
-
-#footer_div2_box03{
+#footer_div2_box01, #footer_div2_box02, #footer_div2_box03{
+    align-items: center;
     text-align: center;
     vertical-align: middle;
     display: flex;
+
+}
+
+
+
+#p1, #p2, #p3 {
+    font-size: xx-large;
+    width: 100%;
 }
